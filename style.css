@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.body-header {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.title,
+.logo {
+    vertical-align: middle;
+    font-size: 60px;
+}
+
+.title,
+.time-title{
+    display: inline-block;
+}
+
+.menu,
+.list,
+.time {
+    margin-bottom: 15px;
+}
+
+
+.menu .task,
+.menu .section {
+    display: inline-block;
+    text-align: middle;
+    color: white;
+    width: fit-content;
+    height: 35px;
+    border-radius: 20%;
+    font-size: 15px;
+}
+
+.menu .task {
+    background-color: aqua;
+}
+
+.menu .section{
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li.time::before{
+    content: "\25BC";
+}
+
+li.tick::before{
+    content: "\2705";
+}
+
+li.x::before{
+    content: "\274C";
+}
+
+.evidenziatore {
+    display: inline-block;
+	vertical-align: middle;
+	border-radius: 20%;
+	text-align: center;
+    height: 25px;
+    width: fit-content;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+.blu {
+    background-color: aqua;
+}
+
+.viola {
+    background-color: blueviolet;
+}
+
+.verde {
+    background-color: green;
+}
+
+.arancione {
+    background-color: orangered;
+}
+
+.rosa {
+    background-color: rosybrown;
+}
+
+.verdino {
+    background-color: greenyellow;
+}
