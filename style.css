@@ -28,15 +28,15 @@
     display: inline-block;
 }
 
-.menu,
+.buttons,
 .list,
 .time {
     margin-bottom: 15px;
 }
 
 
-.menu .task,
-.menu .section {
+.buttons .task,
+.buttons .section {
     display: inline-block;
     text-align: middle;
     color: white;
@@ -46,13 +46,15 @@
     font-size: 15px;
 }
 
-.menu .task {
+.buttons .task {
     background-color: aqua;
 }
 
-.menu .section{
+.buttons .section{
     background-color: grey;
 }
+
+/* stile lista */
 
 ul {
     list-style-type: none;
@@ -69,6 +71,8 @@ li.tick::before{
 li.x::before{
     content: "\274C";
 }
+
+/* evideziatore */
 
 .evidenziatore {
     display: inline-block;
